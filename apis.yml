@@ -1,8 +1,24 @@
 aid: simplifile
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplifile.png
 name: simplifile
-description: simplifile is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Simplifile is a real estate document collaboration and electronic recording (e-recording)
+  network that connects settlement agents, lenders, and county recording offices to submit, track, and
+  record property documents electronically. Its platform also covers post-closing collaboration, lien
+  release, and trailing-document management for the mortgage and title industry. Simplifile is part of
+  ICE Mortgage Technology (Intercontinental Exchange). This profile was surfaced as an Insight Partners
+  portfolio lead and enriched via live domain and endpoint probing; no public developer API surface was
+  found.
 url: https://raw.githubusercontent.com/api-evangelist/simplifile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Real Estate
+- Mortgage
+- E-Recording
+- Document Management
+- Real Estate Technology
+- Title Insurance
+- Recording
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/simplifile-domain-security.yml
 - type: Website
   url: https://simplifile.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
