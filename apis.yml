@@ -42,10 +42,10 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Mortgage
 - E-Recording
-- Document-Management
+- Document Management
 - Real Estate Technology
 - Title Insurance
 - Recording
@@ -58,6 +58,8 @@ tags_raw:
 - Real Estate Technology
 - Title Insurance
 - Recording
+- Real-Estate
+- Document-Management
 apis: []
 maintainers:
 - FN: Kin Lane
